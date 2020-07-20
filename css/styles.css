@@ -1,0 +1,82 @@
+body{
+	font-family: Helvetica,sans-serif;
+	background-color: black;
+}
+/*Header*/
+#header-nav{
+	background-color:#b5edaf;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding: 0;
+	margin: 0 0 0 0;
+}
+.navbar-brand h1{
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 5px 5px 5px 20px;
+	text-shadow: 2px 2px 4px black;
+	color:black;
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration: none;
+}
+/*Collapsable Button*/
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+hr{
+	width: 80%;
+}
+#nav-list{
+	margin-top: 20px 0 10px;
+}
+#nav-list a{
+	padding: 5px;
+	color: black;
+	text-align: center;
+	font-size: 1.8em;
+}
+#nav-list a:hover{
+	color: #2b2f36;
+}
+#li1{
+	margin-top:20px; 
+}
+/*End of Header*/
+/*Body*/
+	.container-sec {
+		/*border: 1px solid black;*/
+		margin: 10px;
+		background-color: #b5edaf;
+	}
+	section{
+		text-align: center;
+		padding-top:10px;
+		font-size: 1.4em;
+	}
+	p{
+    	clear: right;
+		margin: 10px;
+	    padding: 10px ;
+		color: black;
+	}
+	div{
+		padding:0;
+	}
+	h2{
+		color: #b5edaf;
+		margin: 10px 0 20px;
+		font-size: 1.6em;
+		text-align: center;
+	}
+/*Body ends*/
+@media (max-width: 767px){
+	.navbar-brand h1{
+		font-size: 1.8em;
+	}
+	.navbrand{
+		margin-left: 0;
+	}
+}
