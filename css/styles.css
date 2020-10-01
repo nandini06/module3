@@ -17,14 +17,14 @@ body{
 	margin-bottom: auto;
 	padding: 5px 5px 5px 20px;
 	text-shadow: 2px 2px 4px black;
-	color:black;
+	color:brown;
 }
 .navbar-brand a:hover , .navbar-brand a:focus{
 	text-decoration: none;
 }
 /*Collapsable Button*/
 .navbar-header button.navbar-toggle , .navbar-header .icon-bar{
-	border: 1px solid black;
+	border: 1px solid brown;
 }
 hr{
 	width: 80%;
@@ -34,7 +34,7 @@ hr{
 }
 #nav-list a{
 	padding: 5px;
-	color: black;
+	color: brown;
 	text-align: center;
 	font-size: 1.8em;
 }
@@ -60,7 +60,7 @@ hr{
     	clear: right;
 		margin: 10px;
 	    padding: 10px ;
-		color: black;
+		color: brown;
 	}
 	div{
 		padding:0;
